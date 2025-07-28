@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dimension Phoebe Mahlin</title>
+		<title>Phoebe Mahlin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,13 +20,12 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon fa-star"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1>Phoebe Mahlin</h1>
+								<!p> </p>
 							</div>
 						</div>
 						<nav>
@@ -46,8 +45,8 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="C:\Users\pcmah\OneDrive\Desktop\website\viktor-mindt-XljJTqI3rdM-unsplash.jpg" alt="Photo by <a href="https://unsplash.com/@vikomio77?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Viktor Mindt</a> on <a href="https://unsplash.com/photos/a-galaxy-in-space-XljJTqI3rdM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>" /></span>
-								<p> Hi! My name is Phoebe Mahlin. I recently graduated from the University of Texas at Austin with a double major in Physics and Astronomy and a certificate in Business Spanish. During my undergraduate, I participated in a National Science Foundation Research Experience for Undergradutes (NSF REU) with the Boulder Solar Alliance conducting research in Heliophysics, converting historically recorded sunspots in white light into a catalog of magnetic data dating back over a century. I also had the amazing opportunity to study abroad in Seville, Spain through a Maymester after my freshman year, and again for an entire semester my senior fall at Korea University in Seoul, South Korea.</p>
+								<span class="image main"><img src="viktor-mindt-XljJTqI3rdM-unsplash.jpg" alt="Photo by <a href="https://unsplash.com/@vikomio77?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Viktor Mindt</a> on <a href="https://unsplash.com/photos/a-galaxy-in-space-XljJTqI3rdM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>" /></span>
+								<p> Hi! My name is Phoebe Mahlin. I recently graduated from the University of Texas at Austin with a double major in Physics and Astronomy and a certificate in Business Spanish. During my undergraduate, I participated in a National Science Foundation Research Experience for Undergradutes (NSF REU) with the Boulder Solar Alliance conducting research in Heliophysics, converting historically recorded sunspots in white light (WL) into a catalog of magnetic data dating back over a century. I also had the amazing opportunity to study abroad in Seville, Spain through a Maymester after my freshman year, and again for an entire semester my senior fall at Korea University in Seoul, South Korea.</p>
 								<p> My research interests begin on the Sun's surface with the emergent regions of dense magentic flux appearing as sunspots. I wish to dive deeper into the Sun's interior and study the flows relating to magnetohydrodynamics (MHD) that drive solar activity. I am also interested in solar activity as it relates to the Sun's cycles which in turn produce varying levels of activity that can impact Earth as CMEs and solar flares. I am currently a participant in NASA DEVELOP studying the formation of the Aurora Borealis in the Arctic cirlce, produced by the constant flow of solar wind hitting the Earth. Solar storms expand the region of auroral visibility, and a more active sun produces greater solar storms. I am greatly interested in how simulation models can be used to predict solar activity and the aurora, and furthermore, refine our understanding of the interior solar processes.</p>
 								<p> I grew up in Amarillo, Texas where a short drive outside the city limits provided the perfect environment to fuel my obsession with the night sky. My dad is also a big astronomy-hobbyist and has always celebrated my joy in learning. Outside of research, I love to join run clubs to meet diverse groups of people and explore the beautiful nature closer to home. I also love learning languages and travelling to experience different cultures!
 								<!a href="#work">awesome work</a>.</p>
@@ -56,54 +55,39 @@
 						<!-- Research -->
 							<article id="Research">
 								<h2 class="major">Research</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>My research began in Heliophysics, catalogging a century of sunspot observations and studying surface flux transport on the Sun, through the NSF Boulder Solar Alliance REU, and has transitioned closer to Earth in analyzing space weather to predict the Aurora Borealis on Earth.</p>
 								<h3 class="major">NASA DEVELOP -- Arctic Space Weather</h3>
 								<h4 class="major">Predicting the Aurora Borealis</h4>
 								<p>Working with the Polar Adventure Company, our team created a method to predict the Aurora Borealis along their Alaskan voyages for the next three years (2026-2028). We utilized NASA Earth observations from VIIRS to validate the OVATION Prime model which takes solar wind input to produce simulations of the aurora on Earth up to one hour in advance. Analyzing historical trends in solar activity and Earth's geomagnetic response during the declining phase of the previous solar cycle 24, we calculated the occurence of aurora at our ports of focus. We create a probability map for our partners to use as a reference for planning and promoting voyages for the next three years with a highlight on viewing the aurora.</p>
 								<h3 class="major">NSF Boulder Solar Alliance REU</h3>
 								<h4 class="major">Creating a Catalog of Historical Sunspots with Magnetic Components</h4>
-								<p></p>
+								<p>We only have \~3 solar cycles worth of magnetic data to compare with centuries of solar observations. The Kodaikanal Solar Observatory (KoSO) has imaged the sun from 1904 to 2017 with a white-light telescope. By performing a comparative analysis of magnetic data with the KoSO data, we infer the properties of sunspots photographed in white light for ten continuous cycles in order to simulate surface flux transport during this period. Four characteristics of active regions (ARs) are important parameters needed to input ARs into simulations: 1) location, 2) the surface area, 3) the tilt between bipoles, and 4) the polarity of each bipole. Using the K-means clustering algorithm, we have identified ARs in the white light data and clustered them into two bipolar regions, for which we will assign their magnetic polarity according to Hale’s Law. We then calculate the area and the tilt angle between the bipoles. Comparing our K-Means tilt-derived data to magnetic data, we explore the validity of using K-Means to reasonably approximate the area and tilt of ARs. This comparison allows us to correct for any differences between the magnetic and white light measurements. Finally, we use the corrected AR data as input parameters for the Advective Flux Transport model. With this model, we simulate the surface flux transport over the entire KoSO time period, creating synchronic maps of the magnetic flux evolution over the past 100 years to enhance our understanding of magnetism on the Sun and refine our ability to predict upcoming solar cycles.</p>
+								<img src="ARmap_19400615T0344.png" alt="Sunspot imaged in WL on Jun 15, 1940" width="104" height="142">
+								<img src="cr_jun15.png" alt="Sunspot imaged in WL on Jun 15, 1940 converted into image containing magnetic attributes." width="104" height="142">
+
 							</article>
 
 						<!-- CV -->
 							<article id="cv">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<span class="image main"><img src="viktor-mindt-XljJTqI3rdM-unsplash.jpg" alt="Photo by <a href="https://unsplash.com/@vikomio77?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Viktor Mindt</a> on <a href="https://unsplash.com/photos/a-galaxy-in-space-XljJTqI3rdM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>" /></span>
+								<iframe src="Phoebe_Mahlin_CV (1).pdf"></iframe>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">pcmahlin@gmail.com</label>
-											<input type="text" name="email" id="email" />
-										<!/div>
-										<!div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										<!/div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+								<p>Email: <a href="mailto:pcmahlin@gmail.com">pcmahlin@gmail.com</a>.</p>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<!li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<!li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<!li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<!li><a href="http://www.linkedin.com/in/phoebe-mahlin-14263b239" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="github.com/pmahlin" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
-
+<!--
+						
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Elements</h2>
@@ -347,10 +331,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</article>
 
 					</div>
-
+-->
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Phoebe Mahlin. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
